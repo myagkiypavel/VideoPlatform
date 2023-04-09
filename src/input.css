@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+}
+
+@layer base {
+  h1 {
+    @apply text-7xl text-jet-black;
+  }
+
+  h2 {
+    @apply text-6xl text-jet-black;
+  }
+
+  h3 {
+    @apply text-5xl text-jet-black;
+  }
+
+  h4 {
+    @apply text-2xl text-jet-black;
+  }
+
+  p {
+    @apply text-slate-gray;
+  }
+}
