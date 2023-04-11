@@ -40,6 +40,13 @@
   /*22px*/
 }
 
+.text_regular {
+  font-size: 1.125rem;
+  /*18px*/
+  line-height: 1.575rem;
+  /*25.2*/
+}
+
 .text_medium {
   font-size: 1.25rem;
   /*20px*/
@@ -52,4 +59,8 @@
   /*22px*/
   line-height: 1.813rem;
   /*29px*/
+}
+
+.bg_lifestreams {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70.31%, #FFFFFF 100%), #F0ECFF;
 }
