@@ -21,7 +21,7 @@
   }
 
   h3 {
-    @apply text-5xl text-jet-black;
+    @apply text-5xl text-jet-black leading-[3.85rem];
   }
 
   h4 {
@@ -63,4 +63,8 @@
 
 .bg_lifestreams {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 70.31%, #FFFFFF 100%), #F0ECFF;
+}
+
+.bg_video_calls {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 83.85%, #FFFFFF 100%), #FFF9E8;
 }
